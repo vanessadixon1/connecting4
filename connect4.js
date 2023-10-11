@@ -139,7 +139,9 @@ class Player {
 }
 
 let p1 = document.getElementById("p1");
-let p2 = document.getElementById("p2");
+p1.setAttribute("placeholder","Player 1 color");
+let p2 = document.getElementById("p2")
+p2.setAttribute("placeholder", "Player 2 color" );
 let btn = document.querySelector("button");
 
 btn.addEventListener("click", (evt) => {
