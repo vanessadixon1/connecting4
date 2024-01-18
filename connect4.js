@@ -3,7 +3,6 @@ class Game {
     this.WIDTH = 7;
     this.HEIGHT = 6;
     this.board = [];
-    this.gameOver = false;
     this.players = [p1, p2];
     this.currPlayer = this.players[0];
     this.makeBoard();
@@ -81,7 +80,6 @@ class Game {
     this.placeInTable(y, x);
     
     if (this.checkForWin()) {
-      this.gameOver = true;
       return this.endGame(`Player ${this.currPlayer.color} won!`);
     }
     
