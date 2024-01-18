@@ -1,4 +1,4 @@
-h1, form {
+h1,form {
   display:flex;
   justify-content: center;
   margin-top: 2px;
@@ -9,7 +9,7 @@ h1 {
 }
 
 input {
-  margin: 1px;
+  /* padding: 0 10%; */
 }
 
 #board {
