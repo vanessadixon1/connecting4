@@ -8,10 +8,6 @@ h1 {
   color: gray
 }
 
-input {
-  /* padding: 0 10%; */
-}
-
 #board {
   display:flex;
   flex-direction: column;
