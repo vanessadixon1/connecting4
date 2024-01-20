@@ -1,11 +1,12 @@
+html {
+  background-color: gray;
+  color: white
+}
+
 h1,form {
   display:flex;
   justify-content: center;
   margin-top: 2px;
-}
-
-h1 {
-  color: gray
 }
 
 #board {
